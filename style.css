@@ -1,0 +1,175 @@
+border: 0;
+outline: 0;
+vertical-align: baseline;
+background: transparent;
+}
+
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+:focus {
+outline: 0;
+}
+ins {
+text-decoration: none;
+}
+del {
+text-decoration: line-through;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+/*Reset done*/
+
+html{
+background: url(images/fjord.png);
+background-color: #242924;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%;
+}
+
+@font-face {
+font-family: 'elder_futharkregular';
+src: url('fonts/rune-webfont.eot');
+src: url('fonts/rune-webfont.eot?#iefix') format('embedded-opentype'),
+url('fonts/rune-webfont.woff2') format('woff2'),
+url('fonts/rune-webfont.woff') format('woff'),
+url('fonts/rune-webfont.ttf') format('truetype'),
+url('fonts/rune-webfont.svg#elder_futharkregular') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'fjallaoneregular';
+src: url('fonts/fjallaone-regular-webfont.eot');
+src: url('fonts/fjallaone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+url('fonts/fjallaone-regular-webfont.woff2') format('woff2'),
+url('fonts/fjallaone-regular-webfont.woff') format('woff'),
+url('fonts/fjallaone-regular-webfont.ttf') format('truetype'),
+url('fonts/fjallaone-regular-webfont.svg#fjallaoneregular') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+    font-family: 'arimoregular';
+    src: url('arimo-regular-webfont.eot');
+    src: url('arimo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('arimo-regular-webfont.woff2') format('woff2'),
+         url('arimo-regular-webfont.woff') format('woff'),
+         url('arimo-regular-webfont.ttf') format('truetype'),
+         url('arimo-regular-webfont.svg#arimoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+h2 {
+display: none;
+font-family: 'fjallaoneregular';
+font-size: 3em;
+letter-spacing: 3px;
+text-align: center;
+text-transform: uppercase;
+}
+
+ul {
+display: none;
+}
+
+ul li {
+background: #8B0000;
+border-radius: 5px;
+color: #8B0000; 
+cursor: pointer;
+display: block;
+float: left;
+font-family: 'elder_futharkregular';
+font-size: 5em;
+height: 120px;
+list-style-type: none;
+margin: 10px 10px;
+text-align: center;
+width: 100px;
+}
+
+ul li span {
+display: block;
+margin-top: 15px;
+-webkit-transform: scaleX(-1);
+-moz-transform: scaleX(-1);
+-o-transform: scaleX(-1);
+-ms-transform: scaleX(-1);
+transform: scaleX(-1);
+}
+
+div {
+background-color: #fff;
+border-radius: 8px;
+font-family: 'arimoregular';
+opacity: 0.7;
+text-align: center;
+}
+
+h3 {
+font-family: 'arimoregular';
+}
+
+div span {
+color: #8B0000;
+display: inline-block;
+font-family: 'elder_futharkregular';
+font-size: 4em;
+margin-top: 30px;
+}
+
+div p {
+font-size: 1.8em;
+}
+
+p:last-of-type {
+padding-bottom: 60px;
+}
+
+div[data-id] {
+display: none;
+}
+
+#hello {
+display: none;
+}
+
+#hello ol {
+display: inline-block;
+font-size: 1.2em;
+}
+
+#hello ul li {
+letter-spacing: 6px;
+}
+
+#hello h3 {
+font-size: 2em;
+padding: 20px 0 0 0;
+}
+
+#hello p {
+font-size: 1.2em;
+padding-bottom: 0px;
+}
+
+#start {
+display: inline-block;
+cursor: pointer;
+font-family: 'fjallaoneregular';
+font-size: 2.4em;
+letter-spacing: 4px;
+margin-bottom: 20px;
+}
